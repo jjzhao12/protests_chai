@@ -1,0 +1,151 @@
+title_frame,maintext_frames,quote_type,public_opinion_invoked,historical_context
+Grievance,"['Grievance', 'Voice']",both,yes,no
+Spectacle,"['Grievance', 'Voice']",both,yes,no
+Grievance,"['Grievance', 'Policy']",both,no,no
+Violence,"['Violence', 'Grievance', 'Policing', 'Context']",none,yes,yes
+Grievance,"['Policing', 'Grievance']",both,yes,no
+Grievance,"['Grievance', 'Solidarity']",none,no,no
+Grievance,"['Grievance', 'Policy']",protester,no,yes
+Voice,"['Grievance', 'Context']",both,no,yes
+Grievance,"['Grievance', 'Policing']",both,no,yes
+Grievance,"['Grievance', 'Violence', 'Policing', 'Context']",none,no,yes
+Policing,"['Policing', 'Disruption', 'Grievance']",authority,no,no
+Grievance,"['Grievance', 'Policing', 'Context']",protester,no,yes
+Backlash,"['Grievance', 'Context']",authority,yes,yes
+Violence,"['Policing', 'Grievance']",both,no,yes
+Grievance,"['Grievance', 'Policing']",protester,no,yes
+Backlash,"['Grievance', 'Policing']",authority,no,no
+Grievance,['Grievance'],none,no,no
+Grievance,"['Disruption', 'Grievance', 'Policing']",both,no,yes
+Policing,"['Policing', 'Disruption']",none,no,no
+Context,"['Grievance', 'Context']",authority,yes,yes
+Disruption,"['Violence', 'Disruption', 'Grievance', 'Policing']",both,no,yes
+Policy,"['Grievance', 'Policy', 'Context']",both,yes,yes
+Backlash,"['Violence', 'Disruption', 'Grievance', 'Backlash']",none,yes,yes
+Policy,"['Grievance', 'Policy']",authority,no,no
+Justice,"['Grievance', 'Policing']",both,no,yes
+Disruption,"['Disruption', 'Context']",both,no,yes
+Grievance,"['Grievance', 'Policing']",both,no,yes
+Policing,"['Grievance', 'Policing', 'Disruption']",both,yes,no
+Policy,"['Grievance', 'Policing', 'Context']",both,no,yes
+Backlash,"['Violence', 'Policing', 'Grievance']",both,no,yes
+Disruption,"['Grievance', 'Policing']",both,yes,no
+Spectacle,"['Voice', 'Grievance', 'Context']",both,no,yes
+Disruption,"['Disruption', 'Grievance']",both,no,no
+Disruption,"['Grievance', 'Policing', 'Voice']",both,no,yes
+Grievance,"['Grievance', 'Disruption']",none,no,no
+Backlash,"['Grievance', 'Policing', 'Voice']",both,yes,no
+Disruption,"['Violence', 'Disruption', 'Policing']",both,no,no
+Violence,"['Grievance', 'Policing']",protester,no,yes
+Disruption,"['Violence', 'Context']",authority,no,yes
+Grievance,"['Grievance', 'Policing', 'Voice']",both,yes,no
+Disruption,"['Grievance', 'Policing', 'Context']",both,yes,yes
+Grievance,"['Grievance', 'Context', 'Justice']",none,no,yes
+Grievance,['Grievance'],protester,no,no
+Backlash,"['Grievance', 'Policing']",both,no,no
+Grievance,"['Grievance', 'Voice', 'Policing', 'Justice']",both,no,yes
+Violence,"['Violence', 'Grievance', 'Policing', 'Context']",both,yes,yes
+Radicalism,"['Violence', 'Radicalism', 'Grievance']",authority,no,no
+Disruption,"['Disruption', 'Grievance', 'Voice']",both,no,no
+Violence,"['Policing', 'Grievance', 'Violence']",both,yes,yes
+Grievance,"['Grievance', 'Policing', 'Voice']",both,no,yes
+Violence,"['Policing', 'Grievance', 'Violence']",both,yes,yes
+Disruption,"['Disruption', 'Voice', 'Grievance']",both,no,no
+Disruption,"['Grievance', 'Policing', 'Voice', 'Context']",both,no,yes
+Grievance,['Grievance'],none,no,no
+Policy,"['Grievance', 'Context', 'Policing']",both,no,yes
+Grievance,"['Grievance', 'Justice', 'Solidarity']",both,yes,yes
+Radicalism,"['Grievance', 'Policing', 'Context']",authority,no,yes
+Policy,"['Grievance', 'Context', 'Disruption']",protester,yes,yes
+Grievance,"['Grievance', 'Voice']",both,no,no
+Grievance,"['Grievance', 'Disruption', 'Backlash']",protester,yes,yes
+Disruption,"['Grievance', 'Disruption']",both,no,yes
+Voice,['Grievance'],protester,no,no
+Disruption,"['Grievance', 'Context']",none,no,yes
+Justice,"['Justice', 'Grievance']",none,no,no
+Violence,"['Violence', 'Grievance', 'Policing']",both,no,yes
+Violence,['Policing'],none,no,no
+Disruption,"['Grievance', 'Policing']",protester,no,yes
+Radicalism,"['Grievance', 'Context']",none,no,yes
+Backlash,"['Violence', 'Disruption', 'Grievance', 'Radicalism']",both,no,no
+Solidarity,"['Solidarity', 'Grievance']",none,no,no
+Grievance,['Grievance'],none,no,no
+Disruption,"['Policing', 'Disruption', 'Grievance']",authority,no,yes
+Grievance,"['Grievance', 'Context']",both,no,yes
+Backlash,"['Historical', 'Grievance', 'Voice']",both,yes,yes
+Grievance,"['Grievance', 'Policing']",none,no,no
+Grievance,"['Grievance', 'Disruption']",none,no,no
+Grievance,"['Grievance', 'Context', 'Voice']",both,yes,yes
+Policing,"['Policing', 'Disruption', 'Grievance']",both,yes,yes
+Grievance,"['Grievance', 'Context', 'Voice']",both,yes,yes
+Backlash,"['Grievance', 'Policing']",both,yes,no
+Disruption,"['Disruption', 'Grievance', 'Policing']",both,no,no
+Grievance,"['Grievance', 'Voice']",both,yes,no
+Disruption,"['Disruption', 'Policing']",none,yes,no
+Grievance,"['Grievance', 'Policing', 'Voice']",both,yes,no
+Disruption,"['Disruption', 'Grievance', 'Policing']",both,no,yes
+Disruption,"['Grievance', 'Policy']",none,no,yes
+Backlash,"['Grievance', 'Policing', 'Violence', 'Disruption']",both,yes,yes
+Violence,"['Violence', 'Radicalism', 'Policing']",none,no,no
+Grievance,"['Grievance', 'Context']",protester,no,yes
+Grievance,"['Grievance', 'Policing', 'Voice']",both,yes,yes
+Violence,"['Violence', 'Policing', 'Grievance']",none,no,yes
+Policing,"['Policing', 'Grievance', 'Context']",none,no,yes
+Policy,"['Grievance', 'Context', 'Policing']",both,yes,yes
+Disruption,"['Grievance', 'Policing']",both,no,no
+Disruption,"['Grievance', 'Policing', 'Voice']",both,yes,no
+Radicalism,"['Grievance', 'Context']",none,no,yes
+Policy,"['Grievance', 'Policing', 'Context']",both,yes,yes
+Violence,"['Violence', 'Disruption', 'Grievance', 'Policing']",both,yes,no
+Radicalism,"['Grievance', 'Policing']",protester,yes,no
+Grievance,"['Policing', 'Grievance', 'Context']",both,no,yes
+Disruption,"['Disruption', 'Policing', 'Grievance']",both,no,yes
+Grievance,['Grievance'],none,no,no
+Violence,"['Grievance', 'Policing', 'Context']",both,yes,yes
+Grievance,"['Grievance', 'Voice', 'Policing']",both,no,no
+Grievance,['Grievance'],none,no,no
+Backlash,"['Grievance', 'Policing', 'Context']",both,yes,yes
+Grievance,"['Grievance', 'Policing', 'Voice']",both,no,yes
+Grievance,"['Grievance', 'Violence', 'Policing']",both,no,yes
+Violence,"['Violence', 'Grievance', 'Context']",both,yes,yes
+Grievance,"['Grievance', 'Context']",none,yes,yes
+Radicalism,"['Grievance', 'Policing', 'Radicalism']",both,yes,yes
+Policy,"['Grievance', 'Policy']",both,no,yes
+Grievance,"['Grievance', 'Policing', 'Voice']",both,no,yes
+Voice,"['Grievance', 'Policing', 'Violence', 'Context']",both,no,yes
+Disruption,"['Grievance', 'Disruption']",none,no,no
+Policy,"['Grievance', 'Disruption', 'Backlash']",both,yes,no
+Context,"['Grievance', 'Policing']",both,yes,no
+Grievance,[],none,no,no
+Grievance,"['Grievance', 'Voice', 'Policing']",both,no,yes
+Grievance,"['Grievance', 'Context']",both,yes,yes
+Context,"['Grievance', 'Context']",authority,no,yes
+Grievance,"['Grievance', 'Policing', 'Context']",both,yes,yes
+Backlash,"['Grievance', 'Disruption']",none,yes,no
+Grievance,"['Grievance', 'Context']",none,yes,yes
+Policing,"['Policing', 'Grievance', 'Context']",none,no,yes
+Disruption,"['Solidarity', 'Grievance']",protester,no,no
+Violence,"['Policing', 'Disruption', 'Grievance']",both,no,no
+Violence,"['Violence', 'Grievance', 'Policing', 'Context']",both,no,yes
+Violence,"['Violence', 'Disruption', 'Grievance', 'Policing']",both,yes,no
+Grievance,[],none,no,no
+Policing,"['Grievance', 'Context']",authority,no,yes
+Grievance,"['Grievance', 'Voice']",protester,yes,yes
+Disruption,"['Grievance', 'Policy']",both,no,no
+Backlash,"['Disruption', 'Grievance', 'Policing']",both,no,no
+Disruption,"['Disruption', 'Grievance', 'Context']",both,no,yes
+Policing,"['Policing', 'Grievance', 'Context']",both,no,yes
+Policing,"['Policing', 'Grievance', 'Voice']",both,yes,yes
+Grievance,"['Grievance', 'Policing']",none,yes,no
+Grievance,"['Grievance', 'Voice']",both,no,no
+Grievance,"['Grievance', 'Policing', 'Context']",both,no,yes
+Disruption,"['Disruption', 'Grievance', 'Policing']",both,yes,no
+Grievance,"['Grievance', 'Policing', 'Context']",both,yes,yes
+Grievance,"['Grievance', 'Policing']",both,no,no
+Grievance,"['Grievance', 'Policing', 'Voice']",both,no,no
+Grievance,"['Grievance', 'Policing']",both,no,yes
+Violence,"['Violence', 'Grievance', 'Policing']",protester,no,no
+Grievance,['Grievance'],authority,no,no
+Policy,"['Grievance', 'Context']",both,no,yes
+Backlash,"['Grievance', 'Policing', 'Backlash', 'Voice']",both,yes,yes
+Disruption,"['Violence', 'Disruption', 'Grievance', 'Spectacle']",both,yes,yes
