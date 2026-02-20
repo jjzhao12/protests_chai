@@ -1,7 +1,5 @@
 venv/
 processed_df.jsonl
-processed_df.jsonl
-processed_df.jsonl
 
 # Python cache
 __pycache__/
