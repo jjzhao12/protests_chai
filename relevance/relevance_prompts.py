@@ -3,15 +3,20 @@ You are classifying news articles for relevance to protest-event framing researc
 
 Your task is to determine whether the article is RELEVANT or IRRELEVANT.
 
-Return your answer strictly as valid JSON in the following format:
+Return your answer strictly as valid JSON in ONE of the following two formats:
 
 {
-  "label": "RELEVANT" or "IRRELEVANT",
-  "justification": "1-2 sentences explaining the decision. Reference specific features of the article (e.g., protest described, consequences discussed, or only passing mention)."
+  "label": "RELEVANT"
+}
+
+OR
+
+{
+  "label": "IRRELEVANT"
 }
 
 Do not include any explanation or additional text outside the JSON object.
-The JSON must contain exactly two keys: "label" and "justification".
+The JSON must contain exactly one key: "label".
 
 --------------------------------------------------
 
@@ -58,10 +63,9 @@ Edge cases of PASSING MENTION (IRRELEVANT):
 
 If the article references a specific protest event in a meaningful way (even briefly), classify as RELEVANT.
 
-Again, output ONLY valid JSON with exactly two keys:
-- "label"
-- "justification"
+Again, output ONLY valid JSON with exactly one key: "label".
 
+--------------------------------------------------
 ARTICLE TO CLASSIFY:
 
 TITLE:
