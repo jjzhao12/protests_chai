@@ -1,5 +1,7 @@
 venv/
 processed_df.jsonl
+relevance/*.csv
+relevance/batches/*.csv
 
 # Python cache
 __pycache__/
