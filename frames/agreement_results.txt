@@ -1,0 +1,6 @@
+demands_present: n=40, Raw Agreement=0.900, Krippendorff Alpha=0.752
+protester_quote: n=40, Raw Agreement=0.925, Krippendorff Alpha=0.850
+authority_quote: n=40, Raw Agreement=0.800, Krippendorff Alpha=0.604
+episodic_thematic: n=40, Raw Agreement=0.550, Krippendorff Alpha=0.052
+title_frame: n=40, Raw Agreement=0.650, Krippendorff Alpha=0.446
+body_frame: n=40, Raw Agreement=0.450, Krippendorff Alpha=0.368

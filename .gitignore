@@ -2,6 +2,7 @@ venv/
 processed_df.jsonl
 relevance/*.csv
 relevance/batches/*.csv
+frames/*.csv
 
 # Python cache
 __pycache__/
