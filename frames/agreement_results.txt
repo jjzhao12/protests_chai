@@ -4,3 +4,11 @@ authority_quote: n=40, Raw Agreement=0.800, Krippendorff Alpha=0.604
 episodic_thematic: n=40, Raw Agreement=0.550, Krippendorff Alpha=0.052
 title_frame: n=40, Raw Agreement=0.650, Krippendorff Alpha=0.446
 body_frame: n=40, Raw Agreement=0.450, Krippendorff Alpha=0.368
+
+SECOND RUN
+title_frame: n=40, Raw Agreement=0.925, Krippendorff Alpha=0.875
+excerpt_frame: n=40, Raw Agreement=0.850, Krippendorff Alpha=0.824
+demands_present: n=40, Raw Agreement=0.925, Krippendorff Alpha=0.828
+protester_quote: n=40, Raw Agreement=0.925, Krippendorff Alpha=0.840
+authority_quote: n=40, Raw Agreement=0.950, Krippendorff Alpha=0.897
+thematic_present: n=40, Raw Agreement=0.950, Krippendorff Alpha=0.899
