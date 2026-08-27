@@ -258,32 +258,83 @@ Return ONLY "yes" or "no" for this variable.
 THEMATIC ELEMENTS PRESENT
 ==================================================
 
-Determine whether the excerpt goes meaningfully beyond concrete protest-event actions,
-chronology, and movements to situate the protest within broader circumstances.
+Determine whether the excerpt contains thematic coverage of the protest or the
+broader issue connected to it.
 
-Code "yes" if the excerpt substantively discusses at least one of the following:
+The guiding theoretical question is:
+
+    Does the excerpt remain focused on this particular protest event, 
+    or does it shift the level of analysis to the broader societal problem, 
+    systemic conditions, or longer-term significance connected
+    to the protest?
+
+Episodic coverage remains centered on the particular event: its actors, actions,
+chronology, immediate causes, demands, responses, and consequences.
+
+Thematic coverage moves beyond the particular event and places it within a broader
+social or societal-level understanding.
+
+Code thematic_present = "yes" when the excerpt substantively develops at least
+one of the following:
+
 
 1. ROOT CAUSES OR UNDERLYING SYSTEMIC ISSUES
-   This includes systemic conditions the protest seeks to address or broader conditions
-   that contributed to the protest.
 
-2. BROADER POLITICAL OR GEOPOLITICAL CONTEXT
-   This includes the broader societal or political climate surrounding the protest,
-   political developments contributing to the protest or response, or relevant
-   geopolitical developments.
+The excerpt moves beyond the immediate protest event to discuss the broader social,
+political, economic, environmental, institutional, or policy issue connected to it.
 
-3. BROADER HISTORICAL CONTEXT
-   This includes substantive discussion of historical precedent or historical conditions.
+This may include underlying societal conditions, structural or institutional
+problems, or broader policies and potential solutions related to the issue being
+protested.
 
-4. LONG-TERM IMPLICATIONS
-   This includes broader effects of the protest on society, politics, institutions,
-   the environment, or long-term trends.
 
-Simply mentioning another protest or past event is NOT sufficient.
+2. SOCIETAL-LEVEL CAUSES OR CONSEQUENCES
 
-A reference to a previous protest must meaningfully broaden discussion of the underlying
-circumstances, causes, environment, history, or significance rather than simply recounting
-another protest event.
+The excerpt shifts from particular people and event-specific actions toward causes,
+conditions, or consequences operating at the level of communities, institutions,
+political systems, or society more broadly.
+
+The emphasis is on the broader societal significance of the issue rather than only
+what happened to the actors involved in the particular protest.
+
+
+3. LONG-TERM TRENDS OR IMPLICATIONS
+
+The excerpt places the protest or the issue connected to it within a broader pattern
+over time or discusses longer-term social, political, institutional, economic, or
+environmental implications.
+
+
+--------------------------------------------------
+THEORETICAL BOUNDARY
+--------------------------------------------------
+
+The presence of broader context does NOT by itself make coverage thematic.
+
+Political, geopolitical, or historical background is thematic only when it is used
+to develop a broader systemic or societal issue, a societal-level cause or consequence,
+or a longer-term trend or implication.
+
+Likewise, explaining why a particular protest occurred or what protesters demand
+does NOT by itself make the coverage thematic.
+
+For example, describing protesters as demanding a policy change remains focused on
+the protest and can therefore still be episodic.
+
+By contrast, if the excerpt moves beyond that demand to discuss the broader policy
+system, societal problem, structural conditions, or potential societal response
+connected to the issue, it can be thematic.
+
+The key distinction is not simply whether the excerpt contains background information.
+It is whether the journalist shifts the level of analysis beyond the particular
+protest event toward the broader societal issue or its longer-term significance.
+
+If the excerpt remains primarily focused on the particular protest, its actors,
+chronology, immediate trigger, demands, or immediate responses, code
+thematic_present = "no".
+
+Code thematic_present = "yes" only when the excerpt clearly makes this broader
+thematic shift.
 
 Return ONLY "yes" or "no" for this variable.
 
@@ -981,209 +1032,3 @@ NEVER return:
 - any other value
 """
 
-THEMATIC_PROMPT = """
-You are evaluating whether a news excerpt contains THEMATIC elements in coverage of a protest event.
-
-You will receive:
-
-TITLE: the title of a news article.
-EXCERPT: a truncated excerpt from the article surrounding protest-related mentions.
-
-Use ONLY the provided TITLE and EXCERPT. Do not use outside knowledge.
-
-Your task is to determine whether thematic_present should be "yes" or "no".
-
-
-==================================================
-CORE CONCEPT
-==================================================
-
-Thematic coverage requires the excerpt to move beyond the specific protest event,
-its immediate actors, actions, chronology, triggers, and responses.
-
-The central question is:
-
-    Does the excerpt SHIFT THE LEVEL OF ANALYSIS away from the particular protest event
-    and substantively discuss a broader societal problem, systemic condition,
-    societal-level cause or consequence, or long-term trend or implication?
-
-The presence of background information is NOT enough.
-
-The presence of politics, policy, war, elections, institutions, historical information,
-or other broad subject matter is NOT enough by itself.
-
-Most ordinary explanatory background should remain "no".
-
-
-==================================================
-CODE "YES" ONLY WHEN AT LEAST ONE OF THESE IS PRESENT
-==================================================
-
-1. UNDERLYING SOCIETAL OR SYSTEMIC ISSUE
-
-The excerpt substantively discusses a broader social, political, economic,
-institutional, or environmental problem connected to the protest.
-
-This can include:
-
-- Structural or institutional conditions underlying the issue being protested.
-- Broader societal problems that extend beyond this particular protest event.
-- Policies or institutional practices connected to the broader problem.
-- Systemic or policy responses to the broader societal problem.
-
-Example:
-
-If protesters are demonstrating against gun violence, merely saying that they demand
-background checks describes their demand.
-
-But if the excerpt leaves the specific protest event and substantively discusses
-background-check policy, gaps in gun regulation, broader patterns of gun violence,
-or policy approaches to the societal problem, this can be thematic.
-
-
-2. SOCIETAL-LEVEL CAUSES OR CONSEQUENCES
-
-The excerpt shifts from particular individuals and event-specific actions to causes
-or consequences at the level of communities, institutions, political systems,
-or society more broadly.
-
-The discussion must concern something broader than what happened to the particular
-protesters, officials, or institutions involved in the immediate event.
-
-
-3. LONG-TERM TRENDS OR IMPLICATIONS
-
-The excerpt substantively discusses patterns or consequences extending beyond
-the immediate protest event.
-
-This can include:
-
-- Long-term social trends.
-- Long-term political trends.
-- Long-term institutional effects.
-- Long-term environmental or economic implications.
-- The protest or underlying issue as part of a broader pattern over time.
-
-
-==================================================
-CODE "NO" FOR ORDINARY CONTEXT
-==================================================
-
-Code "no" when the excerpt remains principally at the level of the particular protest,
-its immediate background, or its immediate aftermath.
-
-The following are NOT thematic by themselves:
-
-- Describing what protesters did.
-- Describing what police, officials, lawmakers, or counterprotesters did.
-- Describing arrests, violence, injuries, property damage, or disruption.
-- Providing chronology before, during, or after the protest.
-- Explaining the immediate trigger of the protest.
-- Explaining what protesters demand or oppose.
-- Explaining why the particular protesters participated.
-- Mentioning a law, policy, election, politician, war, court ruling, government action,
-  or other event merely to explain the protest.
-- Summarizing geopolitical events surrounding the protest.
-- Summarizing political events surrounding the protest.
-- Mentioning previous protests or historical events as background.
-- Describing immediate reactions by politicians or institutions.
-- Describing immediate consequences of the protest.
-
-IMPORTANT:
-
-Broader political, geopolitical, or historical context does NOT qualify merely because
-it provides information beyond the protest itself.
-
-It qualifies only if that information is used to substantively develop:
-
-- an underlying societal/systemic issue,
-- a societal-level cause or consequence,
-- or a long-term trend or implication.
-
-
-==================================================
-IMPORTANT DISTINCTIONS
-==================================================
-
-Explaining WHY THE PARTICULAR PROTEST OCCURRED is not necessarily thematic.
-
-Example:
-
-    "Protesters gathered after the governor signed the law and demanded its repeal."
-
-This gives the immediate trigger and protest demand but remains event-level coverage.
-Code "no" unless the excerpt additionally develops the broader societal/systemic issue.
-
-
-Explaining WHAT PROTESTERS WANT is not necessarily thematic.
-
-Example:
-
-    "Students demanded that the university divest from companies doing business
-    with Israel."
-
-This describes a protest demand. By itself, code "no".
-
-If the excerpt goes further and substantively discusses how university endowments work,
-the broader institutional debate over divestment, or a larger nationwide pattern of
-institutional investment controversies, that may qualify as "yes".
-
-
-Ordinary geopolitical background is not necessarily thematic.
-
-Example:
-
-    "The protests followed months of fighting after the October 7 attack and
-    Israel's subsequent military campaign in Gaza."
-
-This provides geopolitical background explaining the circumstances of the protest.
-By itself, code "no".
-
-
-Thematic analysis requires a meaningful SHIFT IN LEVEL OF ANALYSIS.
-
-Ask:
-
-    Is the excerpt still primarily explaining THIS EVENT,
-    or has it begun substantively discussing THE BROADER SOCIETAL ISSUE?
-
-If it remains primarily about this event, code "no".
-
-If the evidence is ambiguous or consists primarily of ordinary background information,
-code "no".
-
-==================================================
-STRICT OUTPUT FORMAT
-==================================================
-
-Return ONLY a valid JSON object.
-
-Do NOT include:
-- explanations
-- reasoning
-- markdown
-- code fences
-- commentary
-- any text before or after the JSON object
-
-The JSON object MUST contain exactly this key:
-
-{
-  "thematic_present": "<yes_or_no>"
-}
-
-The value MUST be exactly:
-
-"yes"
-
-or
-
-"no"
-
-NEVER return:
-- true or false
-- 1 or 0
-- null
-- N/A
-- any other value
-"""
