@@ -1,4 +1,4 @@
-PROMPT = """
+pmPROMPT = """
 You are classifying news articles for relevance to protest-event framing research.
 
 Your task is to determine whether the article is RELEVANT or IRRELEVANT.

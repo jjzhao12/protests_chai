@@ -52,21 +52,23 @@ material/property damage.
 
 DISRUPTION
 The protest is presented through interruption of normal social, economic, or civic
-activity, including disruptive spectacle.
+activity, including disruptive spectacle. The protest being a strike is not sufficient. 
 
 GRIEVANCE
 The protest is presented through protesters' substantive demands, complaints, policy
 goals, or desire for change.
 
 WIDESPREAD SUPPORT
-The protest is presented through popularity, turnout, scale, or broader public backing.
+The protest is presented through popularity, turnout, scale, or broader public backing. One example 
+is if there are repeated mentions of huge turnout numbers or protesters in agreement or solidarity. 
 
 PEACEFUL
 The protest is presented as orderly, calm, peaceful, or nonviolent.
 
 IMPACTFUL
 The protest and protesters are presented in terms of longer-term institutional, policy,
-or economic consequences. Protesters are depicted as agents producing impact.
+or economic consequences. Protesters are depicted as agents producing impact. One example is 
+if a strike is presented through damages to the firm, since this would be an effective strike. 
 
 RESIDUAL
 None of the predefined frames meaningfully characterize how the journalist presents
@@ -79,7 +81,7 @@ A protest's inherent characteristics are not by themselves sufficient to establi
 For example:
 
 - Arrests alone do NOT establish Harm to Protesters.
-- A strike alone does NOT establish Disruption.
+- A strike alone does NOT establish Disruption. 
 - A walkout or hunger strike alone does NOT establish Peaceful.
 - Calling an event a "riot" or "insurrection" alone does NOT establish Protester Violence.
 
