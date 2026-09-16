@@ -3,6 +3,7 @@ processed_df.jsonl
 relevance/*.csv
 relevance/batches/*.csv
 frames/*.csv
+analysis/full_data.csv
 
 # Python cache
 __pycache__/
