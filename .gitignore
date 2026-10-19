@@ -5,6 +5,10 @@ relevance/batches/*.csv
 frames/*.csv
 analysis/full_data.csv
 
+.env
+.env.local
+.env.*.local
+
 # Python cache
 __pycache__/
 *.pyc
